@@ -1,0 +1,48 @@
+{
+  "screen": "Login",
+  "source": "code",
+  "file": "components/LoginScreen.tsx",
+  "platform": "mobile",
+  "automationId": "screen_login",
+  "elements": [
+    {
+      "name": "Email Input",
+      "type": "input",
+      "automationId": "input_email",
+      "required": true,
+      "validation": "email",
+      "maxLength": 50
+    },
+    {
+      "name": "Password Input",
+      "type": "input",
+      "automationId": "input_password",
+      "required": true,
+      "minLength": 8,
+      "supportsMaskToggle": true
+    },
+    {
+      "name": "Login Button",
+      "type": "button",
+      "automationId": "btn_login",
+      "action": "submit_login"
+    },
+    {
+      "name": "Remember Me",
+      "type": "checkbox",
+      "automationId": "chk_remember_me"
+    },
+    {
+      "name": "Forgot Password",
+      "type": "link",
+      "automationId": "lnk_forgot_password",
+      "navigation": "ForgotPassword"
+    },
+    {
+      "name": "Login Error Message",
+      "type": "text",
+      "automationId": "txt_login_error",
+      "errorType": "validation"
+    }
+  ]
+}

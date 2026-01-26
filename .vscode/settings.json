@@ -1,0 +1,16 @@
+{
+  "java.project.sourcePaths": [
+    "automation/src/main/java",
+    "automation/src/test/java"
+  ],
+  "java.project.outputPath": "automation/target/classes",
+  "java.import.gradle.enabled": false,
+  "java.import.maven.enabled": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
