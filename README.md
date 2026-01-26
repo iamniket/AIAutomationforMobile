@@ -372,7 +372,7 @@ appium --port 4723
 ## Contact
 
 **Author**: Niket Patil  
-**Email**: niketpatil20@example.com  
+**Email**: niketpatil20@gmail.com  
 **GitHub**: [@iamniket](https://github.com/iamniket)
 
 ## Repository
